@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sv.css">
+    <title>Svenska</title>
+</head>
+<body>
+    <header>
+        <a onclick="fiClick()" href="fi.html">FI</a>
+        <p>SV</p>
+    </header>
+
+    <main>
+        <h2 id="langHeader"></h2>
+    
+        <form>
+            <div class="subTemp">
+                <input type="text" placeholder="Skriv något...">
+                <button id="svSubmit" type="submit">+</button>
+                <button onclick="removeAllNotes()" id="delete">
+                <i class="fas fa-trash-alt"></i>
+                </button>
+            </div>
+            
+            <div id="svTextField"></div>
+        </form>
+
+        
+    </main>
+
+    <script src="sv.js"></script>
+</body>
+</html>

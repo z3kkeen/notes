@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+#home-h1 {
+    font-size: 5rem;
+    letter-spacing: 7px;
+}
+
+#home-h2 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    min-width: 100%;
+    max-width: 100vh;
+    height: 5vh;
+    background-color: rgba(121, 121, 121, 0.788);
+    position: fixed;
+    background-image: url(img-library/stripes-removebg-preview.png);
+    background-size: 130px;
+    border: 1px solid black;
+}
+
+main {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.headlines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#divider {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.line {
+    height: 2px;
+    width: 35vh;
+    background-color: black;
+    margin-left: 105px;
+}
+
+#arrow {
+    font-size: 4.6rem;
+    rotate: 90deg;
+    margin-top: 15px;
+}
+
+.links {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
+
+#sv-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14vh;
+    width: 21vh;
+    background-image: url(img-library/invis-sv-flag.png);
+    box-shadow: 0 0 10px 10px white inset;
+    background-size: 150px;
+}
+
+#fi-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14vh;
+    width: 21vh;
+    background-image: url(img-library/invis-fi-flag.png);
+    box-shadow: 0 0 10px 10px white inset;
+    background-size: 150px;
+}
+
+#sv-select:hover {
+    height: 14vh;
+    width: 21vh;
+    color: rgb(47, 101, 216);
+    background-image: url(img-library/swe-flag.png);
+    box-shadow: 0 0 10px 10px white inset;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+#fi-select:hover {
+    height: 14vh;
+    width: 21vh;
+    color: aliceblue;
+    background-image: url(img-library/fi-flag.png);
+    box-shadow: 0 0 10px 10px white inset;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+
+
+
+
+
